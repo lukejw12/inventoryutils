@@ -1,0 +1,2 @@
+execute store result score #entity_cache_id inv_utils.temp run scoreboard players get @s inventory_utils.id
+execute if score #entity_cache_id inv_utils.temp = #target_cache_id inv_utils.temp run kill @s

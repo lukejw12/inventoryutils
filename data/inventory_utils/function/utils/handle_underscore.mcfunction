@@ -1,0 +1,2 @@
+data modify storage inventory_utils:temp result_name set value [{"storage":"inventory_utils:temp","nbt":"result_name","interpret":true},{"text":" "}]
+data modify storage inventory_utils:temp capitalize_next set value 1b

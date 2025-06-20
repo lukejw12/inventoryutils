@@ -1,0 +1,2 @@
+execute store result score #items_to_restore inv_utils.temp run data get storage inventory_utils:temp restore_data.Inventory
+execute if score #items_to_restore inv_utils.temp matches 1.. positioned 0 300 0 run function inventory_utils:retrieve/restore_hotbar_loop
