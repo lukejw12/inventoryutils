@@ -1,0 +1,1 @@
+execute store result score #total_remaining inv_utils.temp run data get storage inventory_utils:temp working_inventory

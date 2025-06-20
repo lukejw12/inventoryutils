@@ -1,2 +1,0 @@
-data modify storage inventory_utils:temp temp_line set value [{"text":", "},{"storage":"inventory_utils:temp","nbt":"preview_items[1].count"},{"text":"x "},{"storage":"inventory_utils:temp","nbt":"preview_items[1].name"}]
-data modify storage inventory_utils:temp preview_text append from storage inventory_utils:temp temp_line[]

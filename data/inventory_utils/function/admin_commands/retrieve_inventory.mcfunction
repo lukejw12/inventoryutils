@@ -1,4 +1,0 @@
-scoreboard players add @s Inventory_Utils.toggle 1
-execute if score @s Inventory_Utils.toggle matches 2 as @e[tag=Inventory_Utils.inv_store] if score @s inventory_utils.id = @a[tag=target,distance=..1,limit=1] inventory_utils.id run function inventory_utils:inventory_slot_decide
-execute if score @s Inventory_Utils.toggle matches 2.. run scoreboard players set @s Inventory_Utils.toggle 0
-execute if score @s Inventory_Utils.toggle matches 1 run tellraw @s [{"bold":true,"color":"red","italic":false,"text":"CAUTION!"},{"bold":false,"color":"gray","italic":false,"text":" Restoring this saved inventory will overwrite the contents of your current inventory! (run this command again to continue)"}]

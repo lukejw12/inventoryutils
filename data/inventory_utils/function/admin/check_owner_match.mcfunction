@@ -1,0 +1,2 @@
+execute store success score #owner_matches inv_utils.temp run data modify storage inventory_utils:temp player_uuid set from entity @s data.owner_uuid
+execute if score #owner_matches inv_utils.temp matches 0 run scoreboard players add #cache_count inv_utils.cache_count 1

@@ -1,2 +1,0 @@
-data modify storage inventory_utils:temp temp_line set value [{"text":", +"},{"score":{"name":"#other_items","objective":"inv_utils.temp"}},{"text":" Other Items"}]
-data modify storage inventory_utils:temp preview_text append from storage inventory_utils:temp temp_line[]
