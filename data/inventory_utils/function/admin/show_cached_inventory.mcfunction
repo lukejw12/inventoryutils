@@ -1,6 +1,7 @@
 scoreboard players set #found_index inv_utils.temp 0
 scoreboard players set #target_found inv_utils.temp 0
+data modify storage inventory_utils:temp found_caches set value []
 
-execute as @e[tag=Inventory_Utils.cache] run function inventory_utils:admin/check_display_index_with_owner
+execute as @e[tag=Inventory_Utils.cache] run function inventory_utils:admin/collect_player_caches
 
-execute if score #target_found inv_utils.temp matches 1 run function inventory_utils:admin/display_single_cache
+execute if score #found_index inv_utils.temp > #display_index inv_utils.temp run function inventory_utils:admin/get_cache_at_index

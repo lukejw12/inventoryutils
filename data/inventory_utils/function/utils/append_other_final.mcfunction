@@ -1,1 +1,0 @@
-$data modify storage inventory_utils:temp final_preview set value [{"storage":"inventory_utils:temp","nbt":"final_preview","interpret":true},{"text":", +$(other_count) Other Items"}]

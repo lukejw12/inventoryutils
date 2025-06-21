@@ -1,0 +1,2 @@
+execute store result storage inventory_utils:temp display_cache_id int 1 run data get storage inventory_utils:temp cache_id
+function inventory_utils:admin/create_full_display with storage inventory_utils:temp

@@ -1,1 +1,0 @@
-$data modify storage inventory_utils:temp preview_list append value "$(count_display)x $(clean_name)"

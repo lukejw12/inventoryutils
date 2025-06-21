@@ -1,0 +1,2 @@
+$data modify storage inventory_utils:temp target_cache set from storage inventory_utils:temp found_caches[$(target_index)].data
+$execute store result storage inventory_utils:temp target_cache_id int 1 run data get storage inventory_utils:temp found_caches[$(target_index)].id

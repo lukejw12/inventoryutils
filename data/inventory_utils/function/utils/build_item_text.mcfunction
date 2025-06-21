@@ -1,2 +1,0 @@
-$data modify storage inventory_utils:temp preview_parts[-1] set value "$(count_str)x "
-data modify storage inventory_utils:temp preview_parts[-1] set value [{"storage":"inventory_utils:temp","nbt":"preview_parts[-1]"},{"storage":"inventory_utils:temp","nbt":"result_name","interpret":true}]

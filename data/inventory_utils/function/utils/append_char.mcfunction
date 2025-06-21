@@ -1,1 +1,0 @@
-data modify storage inventory_utils:temp result_name set value [{"storage":"inventory_utils:temp","nbt":"result_name","interpret":true},{"storage":"inventory_utils:temp","nbt":"current_char"}]

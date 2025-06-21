@@ -3,6 +3,5 @@ data modify storage inventory_utils:temp cache_type set from storage inventory_u
 data modify storage inventory_utils:temp preview_text set from storage inventory_utils:temp target_cache.preview
 execute store result storage inventory_utils:temp cache_id int 1 run data get storage inventory_utils:temp target_cache_id
 
-execute if data storage inventory_utils:temp target_cache{type:"hotbar"} run tellraw @s [{"text":"🔥 ","color":"gold"},{"nbt":"cache_name","storage":"inventory_utils:temp","color":"yellow","click_event":{"action":"run_command","command":"/function inventory_utils:admin/cache_options"},"hover_event":{"action":"show_text","value":[{"text":"Type: Hotbar\n","color":"gray"},{"nbt":"preview_text","storage":"inventory_utils:temp","interpret":true}]}},{"text":" (Hotbar)","color":"gray"}]
-
-execute if data storage inventory_utils:temp target_cache{type:"full"} run tellraw @s [{"text":"📦 ","color":"blue"},{"nbt":"cache_name","storage":"inventory_utils:temp","color":"yellow","click_event":{"action":"run_command","command":"/function inventory_utils:admin/cache_options"},"hover_event":{"action":"show_text","value":[{"text":"Type: Full Inventory\n","color":"gray"},{"nbt":"preview_text","storage":"inventory_utils:temp","interpret":true}]}},{"text":" (Full)","color":"gray"}]
+execute if data storage inventory_utils:temp target_cache{type:"hotbar"} run function inventory_utils:admin/show_hotbar_cache
+execute if data storage inventory_utils:temp target_cache{type:"full"} run function inventory_utils:admin/show_full_cache

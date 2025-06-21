@@ -1,1 +1,0 @@
-$data modify storage inventory_utils:temp working_name set string storage inventory_utils:temp working_name $(skip_pos)
