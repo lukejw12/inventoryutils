@@ -16,4 +16,4 @@ scoreboard players set #27 inv_utils.temp 27
 scoreboard players set #36 inv_utils.temp 36
 scoreboard players set #41 inv_utils.temp 41
 
-tellraw @a [{"text":"[Inventory Utils] ","color":"gold"},{"text":"Enhanced system loaded! Use ","color":"green"},{"text":"/function inventory_utils:cache_inventory","color":"aqua","click_event":{"action":"suggest_command","command":"/function inventory_utils:cache_inventory"}},{"text":" to get started.","color":"green"}]
+tellraw @a [{"text":"[Inventory Utils] ","color":"gold"},{"text":"Datapack loaded! Use ","color":"green"},{"text":"/function inventory_utils:cache_inventory","color":"aqua","click_event":{"action":"suggest_command","command":"/function inventory_utils:cache_inventory"}},{"text":" to get started.","color":"green"}]

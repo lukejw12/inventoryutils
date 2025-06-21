@@ -1,0 +1,3 @@
+execute store success score #uuid_match inv_utils.temp run data modify storage inventory_utils:temp temp_uuid set from storage inventory_utils:temp current_member_uuid
+execute store success score #uuid_match inv_utils.temp run data modify storage inventory_utils:temp temp_uuid set from entity @s UUID
+execute if score #uuid_match inv_utils.temp matches 0 run tellraw @a[limit=1,sort=nearest] [{"text":"  - ","color":"gray"},{"selector":"@s","color":"white"}]
