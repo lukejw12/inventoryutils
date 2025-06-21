@@ -1,0 +1,2 @@
+execute store result storage inventory_utils:temp remaining_count int 1 run scoreboard players get #remaining inv_utils.temp
+function inventory_utils:utils/append_other_count with storage inventory_utils:temp

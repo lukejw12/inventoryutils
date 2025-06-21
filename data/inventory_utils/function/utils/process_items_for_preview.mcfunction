@@ -1,4 +1,3 @@
-execute if score #items_shown inv_utils.temp matches 4.. run function inventory_utils:utils/count_remaining_items
 execute if score #items_shown inv_utils.temp matches 4.. run return 0
 
 execute store result score #items_left inv_utils.temp run data get storage inventory_utils:temp working_inventory

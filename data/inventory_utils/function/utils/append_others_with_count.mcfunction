@@ -1,0 +1,1 @@
+$data modify storage inventory_utils:temp result set value "$(result), +$(others_count) Other Items"

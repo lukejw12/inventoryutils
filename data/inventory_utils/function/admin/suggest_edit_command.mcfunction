@@ -1,0 +1,1 @@
+$tellraw @s [{"text":"✏ Edit Name","color":"yellow","click_event":{"action":"suggest_command","command":"/function inventory_utils:edit/rename_cache {cache_id:$(edit_cache_id),new_name:\"New Name\"}"},"hover_event":{"action":"show_text","value":"Change the display name"}}]

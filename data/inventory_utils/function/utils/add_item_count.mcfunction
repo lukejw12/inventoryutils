@@ -1,0 +1,2 @@
+$execute store result score #item_count inv_utils.temp run data get entity @s data.Inventory[$(slot_index)].count
+scoreboard players operation #remaining_count inv_utils.temp += #item_count inv_utils.temp

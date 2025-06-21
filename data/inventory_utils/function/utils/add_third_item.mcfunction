@@ -1,0 +1,1 @@
+$data modify storage inventory_utils:temp preview_text set value [{"storage":"inventory_utils:temp","nbt":"preview_text"},{"text":", $(item_count)x $(clean_name)"}]

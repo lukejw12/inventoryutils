@@ -1,0 +1,1 @@
+$data modify storage inventory_utils:temp clean_name set value "$(current_clean)$(upper_char)"

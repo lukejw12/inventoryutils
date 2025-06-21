@@ -1,0 +1,1 @@
+$data modify storage inventory_utils:temp preview_text set value "$(item_count)x $(clean_name)"

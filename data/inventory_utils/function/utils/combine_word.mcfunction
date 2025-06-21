@@ -1,0 +1,1 @@
+$data modify storage inventory_utils:temp capitalized_word set value "$(first_char)$(rest_word)"

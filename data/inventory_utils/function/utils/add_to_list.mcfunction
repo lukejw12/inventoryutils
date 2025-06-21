@@ -1,0 +1,1 @@
+$data modify storage inventory_utils:temp items_list append value "$(count)x $(clean_name)"

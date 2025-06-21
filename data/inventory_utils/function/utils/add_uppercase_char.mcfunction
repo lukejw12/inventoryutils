@@ -1,0 +1,31 @@
+data modify storage inventory_utils:temp upper_char set from storage inventory_utils:temp current_char
+
+execute if data storage inventory_utils:temp {current_char:"a"} run data modify storage inventory_utils:temp upper_char set value "A"
+execute if data storage inventory_utils:temp {current_char:"b"} run data modify storage inventory_utils:temp upper_char set value "B"
+execute if data storage inventory_utils:temp {current_char:"c"} run data modify storage inventory_utils:temp upper_char set value "C"
+execute if data storage inventory_utils:temp {current_char:"d"} run data modify storage inventory_utils:temp upper_char set value "D"
+execute if data storage inventory_utils:temp {current_char:"e"} run data modify storage inventory_utils:temp upper_char set value "E"
+execute if data storage inventory_utils:temp {current_char:"f"} run data modify storage inventory_utils:temp upper_char set value "F"
+execute if data storage inventory_utils:temp {current_char:"g"} run data modify storage inventory_utils:temp upper_char set value "G"
+execute if data storage inventory_utils:temp {current_char:"h"} run data modify storage inventory_utils:temp upper_char set value "H"
+execute if data storage inventory_utils:temp {current_char:"i"} run data modify storage inventory_utils:temp upper_char set value "I"
+execute if data storage inventory_utils:temp {current_char:"j"} run data modify storage inventory_utils:temp upper_char set value "J"
+execute if data storage inventory_utils:temp {current_char:"k"} run data modify storage inventory_utils:temp upper_char set value "K"
+execute if data storage inventory_utils:temp {current_char:"l"} run data modify storage inventory_utils:temp upper_char set value "L"
+execute if data storage inventory_utils:temp {current_char:"m"} run data modify storage inventory_utils:temp upper_char set value "M"
+execute if data storage inventory_utils:temp {current_char:"n"} run data modify storage inventory_utils:temp upper_char set value "N"
+execute if data storage inventory_utils:temp {current_char:"o"} run data modify storage inventory_utils:temp upper_char set value "O"
+execute if data storage inventory_utils:temp {current_char:"p"} run data modify storage inventory_utils:temp upper_char set value "P"
+execute if data storage inventory_utils:temp {current_char:"q"} run data modify storage inventory_utils:temp upper_char set value "Q"
+execute if data storage inventory_utils:temp {current_char:"r"} run data modify storage inventory_utils:temp upper_char set value "R"
+execute if data storage inventory_utils:temp {current_char:"s"} run data modify storage inventory_utils:temp upper_char set value "S"
+execute if data storage inventory_utils:temp {current_char:"t"} run data modify storage inventory_utils:temp upper_char set value "T"
+execute if data storage inventory_utils:temp {current_char:"u"} run data modify storage inventory_utils:temp upper_char set value "U"
+execute if data storage inventory_utils:temp {current_char:"v"} run data modify storage inventory_utils:temp upper_char set value "V"
+execute if data storage inventory_utils:temp {current_char:"w"} run data modify storage inventory_utils:temp upper_char set value "W"
+execute if data storage inventory_utils:temp {current_char:"x"} run data modify storage inventory_utils:temp upper_char set value "X"
+execute if data storage inventory_utils:temp {current_char:"y"} run data modify storage inventory_utils:temp upper_char set value "Y"
+execute if data storage inventory_utils:temp {current_char:"z"} run data modify storage inventory_utils:temp upper_char set value "Z"
+
+data modify storage inventory_utils:temp current_clean set from storage inventory_utils:temp clean_name
+function inventory_utils:utils/append_upper_char with storage inventory_utils:temp

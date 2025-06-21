@@ -1,0 +1,2 @@
+$execute if score #word_index inv_utils.temp matches 0 run data modify storage inventory_utils:temp clean_name set value "$(first_char)$(rest_word)"
+$execute unless score #word_index inv_utils.temp matches 0 run data modify storage inventory_utils:temp clean_name set value "$(clean_name) $(first_char)$(rest_word)"

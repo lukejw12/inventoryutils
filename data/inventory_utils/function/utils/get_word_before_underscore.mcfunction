@@ -1,0 +1,2 @@
+$data modify storage inventory_utils:temp current_word set string storage inventory_utils:temp working_name 0 $(word_end)
+data modify storage inventory_utils:temp words append from storage inventory_utils:temp current_word

@@ -1,0 +1,1 @@
+$data modify storage inventory_utils:temp result set value [{"storage":"inventory_utils:temp","nbt":"result"},{"text":", +$(others) Other Items"}]
