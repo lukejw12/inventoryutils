@@ -6,7 +6,7 @@ tellraw @s [{"text":"Type: ","color":"gray"},{"nbt":"cache_type","storage":"inve
 
 execute unless data storage inventory_utils:temp target_cache.team_cache run data modify storage inventory_utils:temp target_cache.team_cache set value 0b
 
-execute if data storage inventory_utils:temp target_cache{team_cache:0b} run tellraw @s [{"text":"🔒 Team Cache: ","color":"gray"},[{"text":"[Disable]","color":"green","bold":true},{"text":" "},{"text":"[Enable]","color":"red","click_event":{"action":"run_command","command":"/function inventory_utils:team/enable_team_cache"},"hover_event":{"action":"show_text","value":"Click to enable team sharing"}}]]
+execute if data storage inventory_utils:temp target_cache{team_cache:0b} run tellraw @s [{"text":"🔒 Team Cache: ","color":"gray"},[{"text":"[Disable]","color":"green","bold":true},{"text":" "},{"text":"[Enable]","color":"red",bold:false,"click_event":{"action":"run_command","command":"/function inventory_utils:team/enable_team_cache"},"hover_event":{"action":"show_text","value":"Click to enable team sharing"}}]]
 
 execute if data storage inventory_utils:temp target_cache{team_cache:1b} run tellraw @s [{"text":"🔒 Team Cache: ","color":"gray"},[{"text":"[Disable]","color":"red","click_event":{"action":"run_command","command":"/function inventory_utils:team/disable_team_cache"},"hover_event":{"action":"show_text","value":"Click to disable team sharing"}},{"text":" "},{"text":"[Enable]","color":"green","bold":true}]]
 
